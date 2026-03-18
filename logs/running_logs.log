@@ -21,3 +21,12 @@
 [2026-03-18 13:31:28,897] 52 root - INFO - Created directory at: artifacts
 [2026-03-18 13:31:28,900] 52 root - INFO - Created directory at: artifacts/data_ingestion
 [2026-03-18 13:31:28,902] 12 root - INFO - Downloading data from https://github.com/krishnaik06/datasets/raw/refs/head/main/winequality-data.zip to artifacts/data_ingestion/data.zip
+[2026-03-18 18:14:02,597] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 18:14:02,603] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 18:14:02,604] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 18:14:02,605] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 18:14:02,607] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 18:14:02,608] 12 root - INFO - Downloading data from https://archive.ics.uci.edu/static/public/186/wine+quality.zip to artifacts/data_ingestion/data.zip
+[2026-03-18 18:14:07,128] 14 root - INFO - Data downloaded successfully.
+[2026-03-18 18:14:07,130] 20 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-18 18:14:07,342] 25 root - INFO - Data unzipped successfully.
