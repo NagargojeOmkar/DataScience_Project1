@@ -30,3 +30,16 @@
 [2026-03-18 18:14:07,128] 14 root - INFO - Data downloaded successfully.
 [2026-03-18 18:14:07,130] 20 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
 [2026-03-18 18:14:07,342] 25 root - INFO - Data unzipped successfully.
+[2026-03-18 18:57:09,555] 8 root - INFO - >>>>>>> Stage Data Ingestion Stage started <<<<<<<
+[2026-03-18 18:57:09,556] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 18:57:09,557] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 18:57:09,557] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 18:57:09,558] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 18:57:09,558] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 18:57:09,558] 14 root - INFO - Downloading data from https://archive.ics.uci.edu/static/public/186/wine+quality.zip to artifacts/data_ingestion/data.zip
+[2026-03-18 18:57:12,663] 16 root - INFO - Data downloaded successfully.
+[2026-03-18 18:57:12,663] 22 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-18 18:57:12,915] 27 root - INFO - Data unzipped successfully.
+[2026-03-18 18:57:12,916] 11 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
+
+
