@@ -1,2 +1,23 @@
 [2026-03-18 10:47:14,053] 3 root - INFO - Data ingestion started
 [2026-03-18 10:47:14,053] 4 root - INFO - Model training completed
+[2026-03-18 13:28:36,176] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 13:28:36,183] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 13:28:36,185] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 13:28:36,187] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 13:28:36,189] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 13:29:02,164] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 13:29:02,167] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 13:29:02,170] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 13:29:02,172] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 13:29:02,174] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 13:30:07,817] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 13:30:07,819] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 13:30:07,821] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 13:30:07,823] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 13:30:07,827] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 13:31:28,892] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-18 13:31:28,895] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-18 13:31:28,896] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-18 13:31:28,897] 52 root - INFO - Created directory at: artifacts
+[2026-03-18 13:31:28,900] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-18 13:31:28,902] 12 root - INFO - Downloading data from https://github.com/krishnaik06/datasets/raw/refs/head/main/winequality-data.zip to artifacts/data_ingestion/data.zip
