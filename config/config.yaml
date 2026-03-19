@@ -13,3 +13,10 @@ data_validation:
   STATUS_FILE: artifacts/data_validation/status.yaml
   report_file_name: report.yaml
   report_page_file_name: report.html
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  transformed_train_file: artifacts/data_transformation/transformed_train.csv
+  transformed_test_file: artifacts/data_transformation/transformed_test.csv
+  data_path: artifacts/data_ingestion/winequality-red.csv
+  

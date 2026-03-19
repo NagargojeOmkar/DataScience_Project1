@@ -43,3 +43,132 @@
 [2026-03-18 18:57:12,916] 11 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
 
 
+[2026-03-19 11:05:38,391] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:05:38,398] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:05:38,401] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:05:38,403] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:10:35,581] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:10:35,582] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:10:35,586] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:10:35,589] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:13:31,395] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:13:31,398] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:13:31,402] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:13:31,403] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:13:33,831] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:13:33,833] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:13:33,835] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:13:33,837] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:13:34,587] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:13:34,588] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:13:34,591] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:13:34,594] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:16:18,003] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:16:18,004] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:16:18,006] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:16:18,007] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:19:43,380] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:19:43,384] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:19:43,386] 20 root - ERROR - \u274c Error during data validation pipeline: "'ConfigBox' object has no attribute 'local_data_file'"
+[2026-03-19 11:26:24,096] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:26:24,100] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:26:24,112] 21 root - INFO - All columns are valid
+[2026-03-19 11:26:24,113] 15 root - INFO - \u2705 Data validation completed successfully
+[2026-03-19 11:29:34,176] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:29:34,180] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:29:34,189] 23 root - INFO - All columns are valid
+[2026-03-19 11:29:34,193] 35 root - ERROR - Error occurred: [Errno 2] No such file or directory: 'artifacts/data_validation/status.yaml'
+[2026-03-19 11:29:34,194] 17 root - ERROR - \u274c Data validation failed
+[2026-03-19 11:30:54,706] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:30:54,709] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:30:54,717] 28 root - INFO - All columns are valid
+[2026-03-19 11:30:54,725] 38 root - INFO - Validation status saved at: artifacts/data_validation/status.yaml
+[2026-03-19 11:30:54,726] 15 root - INFO - \u2705 Data validation completed successfully
+[2026-03-19 11:32:46,519] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:32:46,521] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:32:46,526] 19 root - INFO - Data loaded from: artifacts\data_ingestion\winequality-red.csv
+[2026-03-19 11:32:46,528] 27 root - INFO - Total columns in data: 12
+[2026-03-19 11:32:46,529] 28 root - INFO - Total columns in schema: 12
+[2026-03-19 11:32:46,529] 46 root - INFO - All columns are valid
+[2026-03-19 11:32:46,536] 68 root - INFO - Validation report saved at: artifacts/data_validation/status.yaml
+[2026-03-19 11:32:46,537] 11 root - INFO - \u2705 Data validation completed successfully
+[2026-03-19 11:57:26,548] 12 root - INFO - >>>>>>> Stage Data Ingestion Stage started <<<<<<<
+[2026-03-19 11:57:26,549] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:57:26,550] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:57:26,551] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:57:26,551] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:57:26,551] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-19 11:57:26,552] 22 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-19 11:57:26,824] 27 root - INFO - Data unzipped successfully.
+[2026-03-19 11:57:26,824] 17 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
+
+
+[2026-03-19 11:57:26,825] 30 root - INFO - >>>>>>> Stage Data Validation Stage started <<<<<<<
+[2026-03-19 11:57:26,827] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 11:57:26,828] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 11:57:26,830] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 11:57:26,831] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 11:57:26,839] 30 root - INFO - Data loaded from: artifacts\data_ingestion\winequality-red.csv
+[2026-03-19 11:57:26,839] 38 root - INFO - Total columns in data: 12
+[2026-03-19 11:57:26,839] 39 root - INFO - Total columns in schema: 12
+[2026-03-19 11:57:26,839] 57 root - INFO - All columns are valid
+[2026-03-19 11:57:26,844] 80 root - INFO - Validation report saved at: artifacts/data_validation/status.yaml
+[2026-03-19 11:57:26,844] 35 root - INFO - >>>>>>> Stage Data Validation Stage completed <<<<<<<
+
+
+[2026-03-19 12:42:17,756] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 12:42:17,759] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 12:42:17,764] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 12:42:17,766] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 12:42:17,767] 9 root - ERROR - Error occurred: 'ConfigurationManager' object has no attribute 'get_data_transformation_config'
+[2026-03-19 12:42:50,972] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 12:42:50,974] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 12:42:50,977] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 12:42:50,979] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 12:42:50,980] 9 root - ERROR - Error occurred: 'ConfigurationManager' object has no attribute 'get_data_transformation_config'
+[2026-03-19 12:46:26,569] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 12:46:26,572] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 12:46:26,574] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 12:46:26,577] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 12:46:26,578] 9 root - ERROR - Error occurred: 'ConfigurationManager' object has no attribute 'get_data_transformation_config'
+[2026-03-19 18:10:40,525] 13 root - INFO - >>>>>>> Stage Data Ingestion Stage started <<<<<<<
+[2026-03-19 18:10:40,527] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 18:10:40,528] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 18:10:40,529] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 18:10:40,529] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 18:10:40,530] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-19 18:10:40,530] 22 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-19 18:10:40,789] 27 root - INFO - Data unzipped successfully.
+[2026-03-19 18:10:40,790] 18 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
+
+
+[2026-03-19 18:10:40,790] 31 root - INFO - >>>>>>> Stage Data Validation Stage started <<<<<<<
+[2026-03-19 18:10:40,793] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 18:10:40,795] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 18:10:40,797] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 18:10:40,799] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 18:10:40,806] 30 root - INFO - Data loaded from: artifacts\data_ingestion\winequality-red.csv
+[2026-03-19 18:10:40,806] 38 root - INFO - Total columns in data: 12
+[2026-03-19 18:10:40,806] 39 root - INFO - Total columns in schema: 12
+[2026-03-19 18:10:40,806] 57 root - INFO - All columns are valid
+[2026-03-19 18:10:40,812] 80 root - INFO - Validation report saved at: artifacts/data_validation/status.yaml
+[2026-03-19 18:10:40,813] 36 root - INFO - >>>>>>> Stage Data Validation Stage completed <<<<<<<
+
+
+[2026-03-19 18:10:40,815] 50 root - INFO - >>>>>>> Stage Data Transformation Stage started <<<<<<<
+[2026-03-19 18:10:40,818] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 18:10:40,819] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 18:10:40,821] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 18:10:40,822] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 18:10:40,823] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-19 18:10:40,823] 18 root - INFO - Reading the data from the data path
+[2026-03-19 18:10:40,828] 22 root - INFO - Splitting the data into train and test sets
+[2026-03-19 18:10:40,832] 26 root - INFO - Saving transformed data
+[2026-03-19 18:10:40,863] 31 root - INFO - Data transformation completed
+[2026-03-19 18:10:40,864] 33 root - INFO - Train file: artifacts/data_transformation/transformed_train.csv
+[2026-03-19 18:10:40,864] 34 root - INFO - Test file: artifacts/data_transformation/transformed_test.csv
+[2026-03-19 18:10:40,864] 36 root - INFO - Train shape: (1279, 12)
+[2026-03-19 18:10:40,865] 37 root - INFO - Test shape: (320, 12)
+[2026-03-19 18:10:40,865] 53 root - INFO - >>>>>>> Stage Data Transformation Stage completed <<<<<<<
+
+

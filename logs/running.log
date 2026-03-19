@@ -1,0 +1,28 @@
+[2026-03-19 17:19:52,772] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 17:19:52,779] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 17:19:52,782] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 17:19:52,788] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 17:19:52,791] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-19 17:23:14,038] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 17:23:14,042] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 17:23:14,046] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 17:23:14,048] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 17:23:14,051] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-19 17:29:31,916] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 17:29:31,919] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 17:29:31,924] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 17:29:31,927] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 17:29:31,931] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-19 17:29:54,499] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-19 17:29:54,503] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-19 17:29:54,507] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-19 17:29:54,510] 52 root - INFO - Created directory at: artifacts
+[2026-03-19 17:29:54,513] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-19 17:29:54,514] 15 root - INFO - Reading the data from the data path
+[2026-03-19 17:29:54,527] 19 root - INFO - Splitting the data into train and test sets
+[2026-03-19 17:29:54,540] 23 root - INFO - Saving transformed data
+[2026-03-19 17:29:54,571] 28 root - INFO - Data transformation completed
+[2026-03-19 17:29:54,573] 30 root - INFO - Train file: artifacts/data_transformation/transformed_train.csv
+[2026-03-19 17:29:54,574] 31 root - INFO - Test file: artifacts/data_transformation/transformed_test.csv
+[2026-03-19 17:29:54,574] 33 root - INFO - Train shape: (1279, 12)
+[2026-03-19 17:29:54,576] 34 root - INFO - Test shape: (320, 12)
