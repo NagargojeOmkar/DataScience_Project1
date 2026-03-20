@@ -17,11 +17,11 @@ class DataValidationPipeline:
 
 if __name__ == "__main__":
     try:
-        logger.info(f">>>>>>> Stage {STAGE_NAME} started <<<<<<<")
+        logging.info(f">>>>>>> Stage {STAGE_NAME} started <<<<<<<")
         data_validation_pipeline = DataValidationPipeline()
         data_validation_pipeline.initiate_data_validation()
-        logger.info(f">>>>>>> Stage {STAGE_NAME} completed <<<<<<<\n\n")
+        logging.info(f">>>>>>> Stage {STAGE_NAME} completed <<<<<<<\n\n")
     except Exception as e:
-        logger.exception(e)
+        logging.exception(e)
         raise e
     

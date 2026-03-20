@@ -29,3 +29,16 @@ class DataTransformationConfig:
     transformed_train_file: Path
     transformed_test_file: Path
     data_path: Path
+
+# CONFIG CLASS
+# =========================
+@dataclass
+class ModelTrainerConfig:
+    root_dir: Path
+    training_data: Path
+    testing_data: Path
+    trained_model_file: Path
+    alpha: float
+    l1_ratio: float
+    target_column: str
+

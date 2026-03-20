@@ -172,3 +172,138 @@
 [2026-03-19 18:10:40,865] 53 root - INFO - >>>>>>> Stage Data Transformation Stage completed <<<<<<<
 
 
+[2026-03-20 11:19:46,876] 13 root - INFO - >>>>>>> Stage Data Ingestion Stage started <<<<<<<
+[2026-03-20 11:19:46,878] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 11:19:46,880] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 11:19:46,881] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 11:19:46,882] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 11:19:46,882] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-20 11:19:46,882] 22 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-20 11:19:47,192] 27 root - INFO - Data unzipped successfully.
+[2026-03-20 11:19:47,193] 18 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
+
+
+[2026-03-20 11:19:47,193] 31 root - INFO - >>>>>>> Stage Data Validation Stage started <<<<<<<
+[2026-03-20 11:19:47,196] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 11:19:47,197] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 11:19:47,199] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 11:19:47,199] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 11:19:47,223] 30 root - INFO - Data loaded from: artifacts\data_ingestion\winequality-red.csv
+[2026-03-20 11:19:47,225] 38 root - INFO - Total columns in data: 12
+[2026-03-20 11:19:47,225] 39 root - INFO - Total columns in schema: 12
+[2026-03-20 11:19:47,226] 57 root - INFO - All columns are valid
+[2026-03-20 11:19:47,234] 80 root - INFO - Validation report saved at: artifacts/data_validation/status.yaml
+[2026-03-20 11:19:47,235] 36 root - INFO - >>>>>>> Stage Data Validation Stage completed <<<<<<<
+
+
+[2026-03-20 11:19:47,235] 50 root - INFO - >>>>>>> Stage Data Transformation Stage started <<<<<<<
+[2026-03-20 11:19:47,238] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 11:19:47,239] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 11:19:47,241] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 11:19:47,242] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 11:19:47,242] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-20 11:19:47,243] 18 root - INFO - Reading the data from the data path
+[2026-03-20 11:19:47,248] 22 root - INFO - Splitting the data into train and test sets
+[2026-03-20 11:19:47,260] 26 root - INFO - Saving transformed data
+[2026-03-20 11:19:47,285] 31 root - INFO - Data transformation completed
+[2026-03-20 11:19:47,285] 33 root - INFO - Train file: artifacts/data_transformation/transformed_train.csv
+[2026-03-20 11:19:47,285] 34 root - INFO - Test file: artifacts/data_transformation/transformed_test.csv
+[2026-03-20 11:19:47,285] 36 root - INFO - Train shape: (1279, 12)
+[2026-03-20 11:19:47,285] 37 root - INFO - Test shape: (320, 12)
+[2026-03-20 11:19:47,287] 53 root - INFO - >>>>>>> Stage Data Transformation Stage completed <<<<<<<
+
+
+[2026-03-20 23:06:39,951] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:06:39,957] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:06:39,960] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:06:39,962] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:06:39,964] 7 root - ERROR - Error occurred during model training: "'ConfigBox' object has no attribute 'train_data'"
+[2026-03-20 23:14:28,901] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:14:28,903] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:14:28,905] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:14:28,907] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:14:28,908] 11 root - ERROR - Error: "'ConfigBox' object has no attribute 'train_data'"
+[2026-03-20 23:15:41,232] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:15:41,234] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:15:41,237] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:15:41,239] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:15:41,241] 11 root - INFO - Reading training data
+[2026-03-20 23:15:41,244] 11 root - ERROR - Error: [Errno 2] No such file or directory: 'artifacts\\data_transformation\\train.csv'
+[2026-03-20 23:19:52,029] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:19:52,032] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:19:52,037] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:19:52,038] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:19:52,041] 16 root - INFO - Reading training data
+[2026-03-20 23:19:52,057] 19 root - INFO - Reading testing data
+[2026-03-20 23:19:52,070] 30 root - INFO - Training ElasticNet model
+[2026-03-20 23:19:52,083] 36 root - INFO - Model score: 0.2652917761622785
+[2026-03-20 23:19:52,090] 41 root - INFO - \u2705 Model saved at: artifacts\model_trainer\trained_model.joblib
+[2026-03-20 23:36:57,707] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:36:57,709] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:36:57,713] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:36:57,715] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:36:57,719] 16 root - INFO - Reading training data
+[2026-03-20 23:36:57,727] 19 root - INFO - Reading testing data
+[2026-03-20 23:36:57,731] 30 root - INFO - Training ElasticNet model
+[2026-03-20 23:36:57,738] 47 root - INFO - MAE: 0.5543829927884041
+[2026-03-20 23:36:57,739] 48 root - INFO - MSE: 0.4801361292089501
+[2026-03-20 23:36:57,740] 49 root - INFO - RMSE: 0.6929185588573523
+[2026-03-20 23:36:57,742] 50 root - INFO - R2 Score: 0.2652917761622785
+[2026-03-20 23:36:57,748] 55 root - INFO - \u2705 Model saved at: artifacts\model_trainer\trained_model.joblib
+[2026-03-20 23:56:25,362] 14 root - INFO - >>>>>>> Stage Data Ingestion Stage started <<<<<<<
+[2026-03-20 23:56:25,364] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:56:25,365] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:56:25,366] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:56:25,366] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:56:25,367] 52 root - INFO - Created directory at: artifacts/data_ingestion
+[2026-03-20 23:56:25,367] 22 root - INFO - Unzipping data from artifacts/data_ingestion/data.zip to artifacts/data_ingestion
+[2026-03-20 23:56:25,637] 27 root - INFO - Data unzipped successfully.
+[2026-03-20 23:56:25,638] 19 root - INFO - >>>>>>> Stage Data Ingestion Stage completed <<<<<<<
+
+
+[2026-03-20 23:56:25,639] 32 root - INFO - >>>>>>> Stage Data Validation Stage started <<<<<<<
+[2026-03-20 23:56:25,641] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:56:25,643] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:56:25,647] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:56:25,647] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:56:25,655] 30 root - INFO - Data loaded from: artifacts\data_ingestion\winequality-red.csv
+[2026-03-20 23:56:25,655] 38 root - INFO - Total columns in data: 12
+[2026-03-20 23:56:25,655] 39 root - INFO - Total columns in schema: 12
+[2026-03-20 23:56:25,655] 57 root - INFO - All columns are valid
+[2026-03-20 23:56:25,667] 80 root - INFO - Validation report saved at: artifacts/data_validation/status.yaml
+[2026-03-20 23:56:25,668] 37 root - INFO - >>>>>>> Stage Data Validation Stage completed <<<<<<<
+
+
+[2026-03-20 23:56:25,668] 51 root - INFO - >>>>>>> Stage Data Transformation Stage started <<<<<<<
+[2026-03-20 23:56:25,672] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:56:25,673] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:56:25,677] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:56:25,679] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:56:25,681] 52 root - INFO - Created directory at: artifacts/data_transformation
+[2026-03-20 23:56:25,683] 18 root - INFO - Reading the data from the data path
+[2026-03-20 23:56:25,692] 22 root - INFO - Splitting the data into train and test sets
+[2026-03-20 23:56:25,700] 26 root - INFO - Saving transformed data
+[2026-03-20 23:56:25,734] 31 root - INFO - Data transformation completed
+[2026-03-20 23:56:25,735] 33 root - INFO - Train file: artifacts/data_transformation/transformed_train.csv
+[2026-03-20 23:56:25,735] 34 root - INFO - Test file: artifacts/data_transformation/transformed_test.csv
+[2026-03-20 23:56:25,736] 36 root - INFO - Train shape: (1279, 12)
+[2026-03-20 23:56:25,736] 37 root - INFO - Test shape: (320, 12)
+[2026-03-20 23:56:25,737] 54 root - INFO - >>>>>>> Stage Data Transformation Stage completed <<<<<<<
+
+
+[2026-03-20 23:56:25,737] 67 root - INFO - >>>>>>> Stage Model Trainer Stage started <<<<<<<
+[2026-03-20 23:56:25,743] 29 root - INFO - YAML file loaded successfully from: config\config.yaml
+[2026-03-20 23:56:25,745] 29 root - INFO - YAML file loaded successfully from: params.yaml
+[2026-03-20 23:56:25,748] 29 root - INFO - YAML file loaded successfully from: schema.yaml
+[2026-03-20 23:56:25,749] 52 root - INFO - Created directory at: artifacts
+[2026-03-20 23:56:25,749] 28 root - INFO - Reading training data
+[2026-03-20 23:56:25,755] 31 root - INFO - Reading testing data
+[2026-03-20 23:56:25,761] 42 root - INFO - Training ElasticNet model
+[2026-03-20 23:56:25,764] 59 root - INFO - MAE: 0.5543829927884041
+[2026-03-20 23:56:25,764] 60 root - INFO - MSE: 0.4801361292089501
+[2026-03-20 23:56:25,765] 61 root - INFO - RMSE: 0.6929185588573523
+[2026-03-20 23:56:25,766] 62 root - INFO - R2 Score: 0.2652917761622785
+[2026-03-20 23:56:25,771] 67 root - INFO - \u2705 Model saved at: artifacts\model_trainer\trained_model.joblib
+[2026-03-20 23:56:25,772] 70 root - INFO - >>>>>>> Stage Model Trainer Stage completed <<<<<<<
+
+

@@ -1,7 +1,7 @@
 extra_columns: []
 file_path: artifacts\data_ingestion\winequality-red.csv
 missing_columns: []
-timestamp: '2026-03-19 18:10:40'
+timestamp: '2026-03-20 23:56:25'
 total_columns_data: 12
 total_columns_schema: 12
 validation_status: true

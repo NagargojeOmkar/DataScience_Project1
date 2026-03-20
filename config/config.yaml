@@ -19,4 +19,10 @@ data_transformation:
   transformed_train_file: artifacts/data_transformation/transformed_train.csv
   transformed_test_file: artifacts/data_transformation/transformed_test.csv
   data_path: artifacts/data_ingestion/winequality-red.csv
-  
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  trained_model_file: artifacts/model_trainer/trained_model.joblib
+  training_data: artifacts/data_transformation/transformed_train.csv
+  testing_data: artifacts/data_transformation/transformed_test.csv
+
